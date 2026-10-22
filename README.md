@@ -1,4 +1,26 @@
-This repository contains common device configuration for Xiaomi sdm660-based devices
+This repository contains common device configuration for Xiaomi sdm660-based devices.
+
+It is written for **LineageOS 23.2** (Android 16) and is shared by the devices below.
+
+## Supported devices
+
+* `clover` — Xiaomi Mi Pad 4 / Mi Pad 4 Plus
+* `jasmine_sprout` — Xiaomi Mi A2
+* `jason` — Xiaomi Redmi Note 3
+* `lavender` — Xiaomi Redmi Note 7
+* `platina` — Xiaomi Mi 8 Lite
+* `tulip` — Xiaomi Redmi Note 6 Pro
+* `wayne` — Xiaomi Mi 6X
+* `whyred` — Xiaomi Redmi Note 5
+
+## Dependencies
+
+* `hardware/xiaomi`
+* `kernel/xiaomi/sdm660`
+* `vendor/xiaomi/sdm660-common`
+
+`lineage.dependencies` lists the repositories that are needed on top of a plain
+LineageOS checkout.
 
 ## Copyright
 
@@ -18,3 +40,4 @@ This repository contains common device configuration for Xiaomi sdm660-based dev
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+```
