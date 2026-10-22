@@ -1,6 +1,6 @@
 This repository contains common device configuration for Xiaomi sdm660-based devices.
 
-It is written for **LineageOS 23.2** (Android 16) and is shared by the devices below.
+It is written for **PixelOS 16** (Android 16) and is shared by the devices below.
 
 ## Supported devices
 
@@ -19,8 +19,8 @@ It is written for **LineageOS 23.2** (Android 16) and is shared by the devices b
 * `kernel/xiaomi/sdm660`
 * `vendor/xiaomi/sdm660-common`
 
-`lineage.dependencies` lists the repositories that are needed on top of a plain
-LineageOS checkout.
+`lineage.dependencies` (metadata only, PixelOS does not ship roomservice) lists the
+repositories that are needed on top of a plain PixelOS checkout.
 
 ## Copyright
 
