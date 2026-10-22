@@ -19,8 +19,7 @@ It is written for **PixelOS 16** (Android 16) and is shared by the devices below
 * `kernel/xiaomi/sdm660`
 * `vendor/xiaomi/sdm660-common`
 
-`lineage.dependencies` (metadata only, PixelOS does not ship roomservice) lists the
-repositories that are needed on top of a plain PixelOS checkout.
+The repositories above have to be present on top of a plain PixelOS checkout.
 
 ## Copyright
 
